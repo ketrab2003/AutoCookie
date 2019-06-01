@@ -27,7 +27,6 @@ while running:
 	try:
 		# Click cookie.
 		cookie.click()
-		
 		# Find buyable upgrades and buy them.
 		upgrades = driver.find_elements_by_xpath(upgrades_xpath)
 		for upgrade in upgrades:
