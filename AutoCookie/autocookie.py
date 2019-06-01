@@ -15,6 +15,7 @@ driver.get(game_url)
 # Get cookie object.
 cookie = driver.find_element_by_xpath(cookie_xpath)
 
+# Infinitely click and buy more stuff.
 running = True
 while running:
 	try:
