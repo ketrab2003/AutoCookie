@@ -58,7 +58,7 @@ def save_file(data):
 driver = webdriver.Chrome(chromedriver)
 driver.get(game_url)
 WebDriverWait(driver, load_wait_time).until(EC.presence_of_element_located((By.XPATH, options_xpath)))
-WebDriverWait(driver, 1)
+WebDriverWait(driver, 5)
 
 # Load game (if possible).
 try:
