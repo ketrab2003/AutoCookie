@@ -10,7 +10,6 @@ import argparse
 chromedriver = "./chromedriver.exe"
 game_url = "https://orteil.dashnet.org/cookieclicker/"
 load_wait_time = 60
-DISCONNECTED_MSG = 'Unable to evaluate script: disconnected: not connected to DevTools\n'
 
 cookie_xpath = "//*[@id='bigCookie']"
 upgrades_xpath = "//*[@class='crate upgrade enabled']"
