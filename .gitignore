@@ -114,4 +114,4 @@ dmypy.json
 .pyre/
 
 # Save file
-save.txt
+AutoCookie/save.txt
